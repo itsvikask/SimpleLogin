@@ -8,7 +8,7 @@ import javax.mail.internet.*;
 
 public class MailService {
   private static String UNAME = "vikas6sharma@gmail.com";
-  private static String PASSWORD = "Universe 266366";
+  private static String PASSWORD = "";
   public static boolean sendMail(String to , String sub , String data){
 	  try{
 	  Message msg = getMessageForMail();
